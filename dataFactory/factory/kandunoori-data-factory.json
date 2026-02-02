@@ -1,0 +1,9 @@
+{
+	"name": "kandunoori-data-factory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f0324f60-15e3-4836-8370-e9050af3d636",
+		"tenantId": "4c7643fa-2217-4f0b-90ba-c77508b0aa5c"
+	}
+}

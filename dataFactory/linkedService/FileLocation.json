@@ -6,8 +6,8 @@
 		"type": "FileServer",
 		"typeProperties": {
 			"host": "C:\\Users\\kandu\\CRM+Sales+Opportunities",
-			"userId": "kandunoori",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIzZDgxZDYwZS0xYTAyLTRjMzUtYjYxYi1jZmIzNzlhOGY3ZWEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"userId": "kandunoori@yahoo.com",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJhOGNmN2UyMi0zNWViLTRkNTEtYWU0Yy00ODg2NzQwODU3ZWEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "KandunooriOnpremiseToAzure",

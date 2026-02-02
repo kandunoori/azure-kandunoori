@@ -5,9 +5,9 @@
 		"annotations": [],
 		"type": "FileServer",
 		"typeProperties": {
-			"host": "C:\\Users\\kandu\\CRM+Sales+Opportunities",
+			"host": "C:\\Users\\kandu\\OneDrive\\Desktop\\CRM+Sales+Opportunities",
 			"userId": "kandunoori@yahoo.com",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJhOGNmN2UyMi0zNWViLTRkNTEtYWU0Yy00ODg2NzQwODU3ZWEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJiNGQ3NDYxZi01ZThlLTQ5ZDEtYjUwNC1iMzFhZjJlZDZkMTEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "KandunooriOnpremiseToAzure",

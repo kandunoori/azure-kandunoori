@@ -294,6 +294,62 @@
 						"type": "DatasetReference"
 					}
 				]
+			},
+			{
+				"name": "Success",
+				"type": "WebActivity",
+				"dependsOn": [
+					{
+						"activity": "salesTeam",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"method": "POST",
+					"url": "https://prod-00.northcentralus.logic.azure.com:443/workflows/1b594d0d337c452e92e4c0cce6fa08e3/triggers/When_an_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_an_HTTP_request_is_received%2Frun&sv=1.0&sig=AuHw1fmcoe86EFeC7lk48qXk-nKllmmmtSNL1sbMYa4",
+					"body": {
+						"value": "{\n    \"pipelinename\":\"@{pipeline().Pipeline}\",\n    \"status\":\"Success\",\n    \"pipelinename\":\"@{pipeline().RunId}\",\n    \"time\":\"@{utcNow()}\n}",
+						"type": "Expression"
+					}
+				}
+			},
+			{
+				"name": "Fail",
+				"type": "WebActivity",
+				"dependsOn": [
+					{
+						"activity": "salesTeam",
+						"dependencyConditions": [
+							"Failed"
+						]
+					}
+				],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"method": "POST",
+					"url": "https://prod-00.northcentralus.logic.azure.com:443/workflows/1b594d0d337c452e92e4c0cce6fa08e3/triggers/When_an_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_an_HTTP_request_is_received%2Frun&sv=1.0&sig=AuHw1fmcoe86EFeC7lk48qXk-nKllmmmtSNL1sbMYa4",
+					"body": {
+						"value": "{\n    \"pipelinename\":\"@{pipeline().Pipeline}\",\n    \"status\":\"Fail\",\n    \"pipelinename\":\"@{pipeline().RunId}\",\n    \"time\":\"@{utcNow()}\n}",
+						"type": "Expression"
+					}
+				}
 			}
 		],
 		"annotations": []

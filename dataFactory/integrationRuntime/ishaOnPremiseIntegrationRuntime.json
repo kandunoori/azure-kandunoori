@@ -1,0 +1,6 @@
+{
+	"name": "ishaOnPremiseIntegrationRuntime",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

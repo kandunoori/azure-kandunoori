@@ -1,0 +1,17 @@
+{
+	"name": "FileLocation1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "C:\\Users\\kandu\\OneDrive\\Desktop\\CRM+Sales+Opportunities_Isha",
+			"userId": "kandunoori@yahoo.com",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI0YzcwMDgwNy05MmIyLTQzOWMtOWQwZi1mNzcxY2E0ZmZiYjUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "ishaOnPremiseIntegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

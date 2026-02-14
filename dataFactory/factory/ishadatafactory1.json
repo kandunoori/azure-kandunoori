@@ -1,0 +1,9 @@
+{
+	"name": "ishadatafactory1",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "06df8fa3-b433-4b36-851c-65b70adfbe4e",
+		"tenantId": "4c7643fa-2217-4f0b-90ba-c77508b0aa5c"
+	}
+}
